@@ -1,0 +1,82 @@
+/* Globale Einstellungen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6; /* Sanfter, heller Hintergrund */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .auth-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .auth-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .auth-box form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .auth-box form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f46e5; /* Modernes Blau-Violett */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-box form button:hover {
+    background-color: #4338ca; /* Etwas dunkler bei Hover */
+  }
+  
+  .auth-box .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .switch-auth {
+    margin-top: 20px;
+    color: #6b7280;
+  }
+  
+  .switch-auth a {
+    color: #4f46e5;
+    text-decoration: none;
+  }
+  
+  .switch-auth a:hover {
+    text-decoration: underline;
+  }
+  
